@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IVYmoda</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.2.1-web/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./image/logo.png" alt="logo">
+        </div>
+        <div class="menu">
+            <li class="special"><a href="">NỮ</a>
+            
+            <ul class="sub-menu">
+                <li><a href="">Hang mới về</a></li>
+                <li><a href="">Collection</a></li>
+                <li><a href="">Áo</a>
+                    <ul>
+                        <li><a href="">Áo sơ mi</a></li>
+                        <li><a href="">Áo thun</a></li>
+                        <li><a href="">Áo khoác</a></li>
+                        <li><a href="">Áo len</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Quần</a>
+                    <ul>
+                        <li><a href="">Quần dài</a></li>
+                        <li><a href="">Quần lửng</a></li>
+                        <li><a href="">Quần kaki</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </li>
+            <li><a href="">NAM</a></li>
+            <li><a href="">TRẺ EM</a></li>
+            <li><a href="">SALE</a></li>
+            <li><a href="">KHẨU TRANG</a></li>
+            <li><a href="">BST</a></li>
+            <li><a href="">THÔNG TIN</a></li>
+        </div>
+        <div class="others">
+                <li><input type="text" placeholder="Tìm kiếm">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-users"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+        </div>
+    </header>
+
+<!-- -------------------- -->
+    <section class="cart">
+        <div class="container">
+            <div class="cart-top-wrap">
+                <div class="cart-top">
+                    <div class="cart-top-cart cart-top-item">
+                        <i class="fa-solid fa-cart-shopping cart-top-item"></i>
+                    </div>
+                    <div class="cart-top-address cart-top-item">
+                        <i class="fa-solid fa-map"></i>
+                    </div>
+                    <div class="cart-top-payment cart-top-item">
+                        <i class="fa-solid fa-credit-card"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cart-content row">
+                <div class="cart-content-left">
+                    <table>
+                        <tr>
+                            <th>Sản phẩm</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Màu</th>
+                            <th>Size</th>
+                            <th>SL</th>
+                            <th>Thành tiền</th>
+                            <th>Xóa</th>
+                        </tr>
+                        <tr>
+                            <td><img src="./image/cart_1.jpg" alt=""></td>
+                            <td>Đầm len dáng maxi</td>
+                            <td><img src="./image/color.png" alt=""></td>
+                            <td><p>L</p></td>
+                            <td><input type="number" value ="1" min ="1"></td>
+                            <td><p>120.000 <sup>d</sup></p></td>
+                            <td><span>X</span></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./image/cart_2.jpg" alt=""></td>
+                            <td>Đầm len</td>
+                            <td><img src="./image/color.png" alt=""></td>
+                            <td><p>L</p></td>
+                            <td><input type="number" value ="1" min ="1"></td>
+                            <td><p>220.000 <sup>d</sup></p></td>
+                            <td><span>X</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="cart-content-right">
+                    <table>
+                        <tr>
+                            <th colspan="2">
+                                TỔNG TIỀN GIỎ HÀNG
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>TỔNG SẢN PHẨM</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>TỔNG TIỀN HÀNG</td>
+                             <td><p>120.000d</p></td>
+                        </tr>
+                        <tr>
+                            <td>TẠM TÍNH</td>
+                            <td>
+                                <p style="color : black; font-weight: bold;">120.000d</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="cart-content-right-text">
+                        <p>
+                            Miễn đổi trả đối với sản phẩm đồng giá / sale trên 50%
+                        </p>
+                        <p style = "color: red;font-weight: bold;">Đơn hàng của bạn được Miễn phí ship</p>
+                    </div>
+                    <div class="cart-content-right-button">
+                        <button>
+                            <a href="./category.html">TIẾP TỤC MUA SẮM</a>
+                        </button>
+                        <button>
+                            <a href="./delivery.html" class="cart-content-right-special">THANH TOÁN</a>
+                        </button>
+                    </div>
+                    <div class="cart-content-right-dangnhap">
+                        <p>
+                            TÀI KHOẢN IVY
+                        </p>
+                        <p>
+                            Hãy <a href="">Đăng nhập</a> tài khoản của bạn để tích lũy điểm
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- ---------------------- -->
+    <section class="app-container">
+        <p>
+            Tải ứng dụng IVY moda
+        </p>
+        <div class="app-google">
+            <img src="./image/googleplay.png" alt="google">
+            <img src="./image/appstore.png" alt="appstore">
+        </div>
+        <p>Nhận bản tin IVY moda</p>
+        <input type="" placeholder="Nhập email của bạn...">
+    </section>
+    <footer>
+        <div class="footer-top">
+            <li><a href=""><img src="./image/img-congthuong.png" alt="bo cong thuong"></a></li>
+            <li><a href="">Liên hệ</a></li>
+            <li><a href="">Tuyển dụng</a></li>
+            <li><a href="">Giới thiệu</a></li>
+            <li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </li>
+        </div>
+        <p>
+            Công ty cổ phần Dự Kim với số đăng ký kinh doanh : 0105777650 <br>
+            Địa chỉ đăng ký : Tổ dân phố Tháp, P.Đại Trì, Q.Nam Từ Liêm, TP.Hà Nội, Việt Nam - 0243 205 2777 <br>
+            Đặt hàng online : <span>0765 807 1014</span>
+        </p>
+        <div class="footer-bottom">
+            @Copyright All rights reserved
+        </div>
+    </footer>
+</body>
+
+
+
+
+<script>
+
+    const headers = document.querySelector('header');
+    window.addEventListener("scroll", function(){
+        x = window.pageYOffset;
+        if (x>0){
+            headers.classList.add("sticky");
+        }
+        else {
+            headers.classList.remove("sticky");
+        }
+    })
+
+    const imgPositions = document.querySelectorAll('.aspect-ratio-169 img')
+    const dots = document.querySelectorAll('.dot');
+    imgPositions.forEach(function(img,index) {
+        img.style.left = index * 100 + "%"
+        dots[index].addEventListener('click',function() {
+            Sliders(index);
+        })
+    })
+    const imgContainer = document.querySelector(".aspect-ratio-169");
+    let index = 0;
+    function imgSlides (){
+        index ++;
+        if (index === imgPositions.length-1)
+        index = 0;
+            Sliders(index);
+    }
+    function Sliders (index){
+        imgContainer.style.left = "-" +index*100+ "%";
+        const dotsActive = document.querySelector(".active");
+        dotsActive.classList.remove("active");
+        dost[index].classList.add("active");
+
+    }
+    setInterval(imgSlides,5000);
+
+</script>
+</html>

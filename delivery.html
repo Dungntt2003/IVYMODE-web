@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IVYmoda</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.2.1-web/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./image/logo.png" alt="logo">
+        </div>
+        <div class="menu">
+            <li class="special"><a href="">NỮ</a>
+            
+            <ul class="sub-menu">
+                <li><a href="">Hang mới về</a></li>
+                <li><a href="">Collection</a></li>
+                <li><a href="">Áo</a>
+                    <ul>
+                        <li><a href="">Áo sơ mi</a></li>
+                        <li><a href="">Áo thun</a></li>
+                        <li><a href="">Áo khoác</a></li>
+                        <li><a href="">Áo len</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Quần</a>
+                    <ul>
+                        <li><a href="">Quần dài</a></li>
+                        <li><a href="">Quần lửng</a></li>
+                        <li><a href="">Quần kaki</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </li>
+            <li><a href="">NAM</a></li>
+            <li><a href="">TRẺ EM</a></li>
+            <li><a href="">SALE</a></li>
+            <li><a href="">KHẨU TRANG</a></li>
+            <li><a href="">BST</a></li>
+            <li><a href="">THÔNG TIN</a></li>
+        </div>
+        <div class="others">
+                <li><input type="text" placeholder="Tìm kiếm">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-users"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+        </div>
+    </header>
+
+<!-- ----DELIVERY---------------- -->
+    <section class="delivery">
+        <div class="container">
+            <div class="delivery-top-wrap">
+                <div class="delivery-top">
+                    <div class="delivery-top-delivery delivery-top-item">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="delivery-top-address delivery-top-item">
+                        <i class="fa-solid fa-map"></i>
+                    </div>
+                    <div class="delivery-top-payment delivery-top-item">
+                        <i class="fa-solid fa-credit-card"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="delivery-content row">
+                <div class="delivery-content-left">
+                    <p>Vui lòng chọn địa chỉ giao hàng</p>
+                    <div class="delivery-content-left-dangnhap row">
+                        <i class="fa-solid fa-right-to-bracket"></i> 
+                        <p>
+                            Đăng nhập nếu có tài khoản của Ivy
+                        </p>
+                    </div>
+                    <div class="delivery-content-left-khachle row">
+                        <input checked name = "loaikhach" type = "radio" >
+                        <p>
+                            <span style="font-weight : bold ">Khách lẻ</span> (nếu không muốn lưu lại thông tin)
+                        </p>
+                    </div>
+                    <div class="delivery-content-left-dangky row">
+                        <input  name = "loaikhach" type = "radio">
+                        <p>
+                            <span style="font-weight : bold;margin-left: 12px;">  Đăng ký</span> (Tạo tài khoản mới với thông tin bên dưới)
+                        </p>
+                    </div>
+                    <div class="delivery-content-left-input-top row">
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Họ tên <span  style = "color : red">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Điện thoại <span  style = "color : red">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Tỉnh/TP <span  style = "color : red">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Quận/Huyện <span  style = "color : red">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="delivery-content-left-input-bottom">
+                            <label for="">Địa chỉ <span  style = "color : red">*</span></label>
+                            <input type="text">
+                    </div>
+                <div class="delivery-content-left-button row">
+                    <a href="./cart.html"><span>&#171;</span> <p>Quay lại giỏ hàng</p></a>
+                    <button>
+                        <a href="./payment.html" class="delivery-special"><p style="font-weight: bold">Thanh toán và giao hàng</p></a>
+                    </button>
+                </div>
+                </div>
+                <div class="delivery-content-right">
+                    <table>
+                        <tr>
+                            <th>
+                                Tên sản phẩm
+                            </th>
+                            <th>
+                                Giảm giá
+                            </th>
+                            <th>
+                                Số lượng
+                            </th>
+                            <th>
+                                Thành tiền
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>Đầm len</td>
+                            <td>30%</td>
+                            <td>1</td>
+                            <td>590.000  <sup>d</sup></td>
+                        </tr>
+                        <tr>
+                            <td>Áo len</td>
+                            <td>20%</td>
+                            <td>2</td>
+                            <td>790.000  <sup>d</sup></td>
+                        </tr>
+                        <tr>
+                            <td>Áo len</td>
+                            <td>20%</td>
+                            <td>2</td>
+                            <td>790.000  <sup>d</sup></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight : bold" colspan="3">Tổng</td>
+                            <td style="font-weight : bold"><p>690.000 <sup>d</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight : bold" colspan="3">Thuế VAT</td>
+                            <td style="font-weight : bold"><p>10.000 <sup>d</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight : bold" colspan="3">Tổng tiền hàng</td>
+                            <td style="font-weight : bold"><p>700.000 <sup>d</sup></p></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- ---------------------- -->
+    <section class="app-container">
+        <p>
+            Tải ứng dụng IVY moda
+        </p>
+        <div class="app-google">
+            <img src="./image/googleplay.png" alt="google">
+            <img src="./image/appstore.png" alt="appstore">
+        </div>
+        <p>Nhận bản tin IVY moda</p>
+        <input type="" placeholder="Nhập email của bạn...">
+    </section>
+    <footer>
+        <div class="footer-top">
+            <li><a href=""><img src="./image/img-congthuong.png" alt="bo cong thuong"></a></li>
+            <li><a href="">Liên hệ</a></li>
+            <li><a href="">Tuyển dụng</a></li>
+            <li><a href="">Giới thiệu</a></li>
+            <li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </li>
+        </div>
+        <p>
+            Công ty cổ phần Dự Kim với số đăng ký kinh doanh : 0105777650 <br>
+            Địa chỉ đăng ký : Tổ dân phố Tháp, P.Đại Trì, Q.Nam Từ Liêm, TP.Hà Nội, Việt Nam - 0243 205 2777 <br>
+            Đặt hàng online : <span>0765 807 1014</span>
+        </p>
+        <div class="footer-bottom">
+            @Copyright All rights reserved
+        </div>
+    </footer>
+</body>
+
+
+
+
+<script>
+
+    const headers = document.querySelector('header');
+    window.addEventListener("scroll", function(){
+        x = window.pageYOffset;
+        if (x>0){
+            headers.classList.add("sticky");
+        }
+        else {
+            headers.classList.remove("sticky");
+        }
+    })
+
+    const imgPositions = document.querySelectorAll('.aspect-ratio-169 img')
+    const dots = document.querySelectorAll('.dot');
+    imgPositions.forEach(function(img,index) {
+        img.style.left = index * 100 + "%"
+        dots[index].addEventListener('click',function() {
+            Sliders(index);
+        })
+    })
+    const imgContainer = document.querySelector(".aspect-ratio-169");
+    let index = 0;
+    function imgSlides (){
+        index ++;
+        if (index === imgPositions.length-1)
+        index = 0;
+            Sliders(index);
+    }
+    function Sliders (index){
+        imgContainer.style.left = "-" +index*100+ "%";
+        const dotsActive = document.querySelector(".active");
+        dotsActive.classList.remove("active");
+        dost[index].classList.add("active");
+
+    }
+    setInterval(imgSlides,5000);
+
+</script>
+</html>

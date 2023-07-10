@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IVYmoda</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.2.1-web/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./image/logo.png" alt="logo">
+        </div>
+        <div class="menu">
+            <li class="special"><a href="">NỮ</a>
+            
+            <ul class="sub-menu">
+                <li><a href="">Hang mới về</a></li>
+                <li><a href="">Collection</a></li>
+                <li><a href="">Áo</a>
+                    <ul>
+                        <li><a href="">Áo sơ mi</a></li>
+                        <li><a href="">Áo thun</a></li>
+                        <li><a href="">Áo khoác</a></li>
+                        <li><a href="">Áo len</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Quần</a>
+                    <ul>
+                        <li><a href="">Quần dài</a></li>
+                        <li><a href="">Quần lửng</a></li>
+                        <li><a href="">Quần kaki</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </li>
+            <li><a href="">NAM</a></li>
+            <li><a href="">TRẺ EM</a></li>
+            <li><a href="">SALE</a></li>
+            <li><a href="">KHẨU TRANG</a></li>
+            <li><a href="">BST</a></li>
+            <li><a href="">THÔNG TIN</a></li>
+        </div>
+        <div class="others">
+                <li><input type="text" placeholder="Tìm kiếm">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-users"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+        </div>
+    </header>
+
+<!-- ----PAYMENT---------------- -->
+   <section class="payment">
+    <div class="container">
+        <div class="payment-top-wrap">
+            <div class="payment-top">
+                <div class="payment-top-payment payment-top-item">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="payment-top-address payment-top-item">
+                    <i class="fa-solid fa-map"></i>
+                </div>
+                <div class="payment-top-paymenta payment-top-item">
+                    <i class="fa-solid fa-credit-card"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="payment-content row">
+            <div class="payment-content-left">
+                <div class="paymeny-content-left-method">
+                    <p style ="font-weight: bold;">Phương thức giao hàng</p>
+                    <div class="payment-content-left-method-item">
+                        <input type="radio" name = "method">
+                        <label for="">Giao hàng chuyển phát nhanh</label>
+                    </div>
+                </div>
+                <div class="payment-content-left-method-payment">
+                    <p style ="font-weight: bold;">Phương thức thanh toan</p>
+                    <p>Mọi giao dịch đều được bảo mật và mã hóa. Thông tin thẻ tín dụng sẽ không bao giờ được lưu lại</p>
+                    <div class="payment-content-left-method-payment-item">
+                        <input checked type="radio" name = "method">
+                        <label for="">Thanh toán bằng thẻ tín dụng (onepay)</label>
+                    </div>
+                    <div class="payment-content-left-method-payment-item-img">
+                        <img src="./image/payment.png" alt="">
+                    </div>
+                    <div class="payment-content-left-method-payment-item">
+                        <input type="radio" name = "method">
+                        <label for="">Thanh toán bằng thẻ ATM</label>
+                    </div>
+                    <div class="payment-content-left-method-payment-item-img">
+                        <img src="./image/mb.jpg" alt="">
+                    </div>
+                    <div class="payment-content-left-method-payment-item">
+                        <input type="radio" name = "method">
+                        <label for="">Thanh toán bằng MOMO</label>
+                    </div>
+                    <div class="payment-content-left-method-payment-item-img">
+                        <img src="./image/momo.jpg" alt="">
+                    </div>
+                    <div class="payment-content-left-method-payment-item">
+                        <input type="radio">
+                        <label for="">Thanh toán khi nhận hàng</label>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-content-right">
+                <div class="payment-content-right-button">
+                    <input type="text" placeholder="Ma giam gia /Qua tang">
+                    <button>
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                </div>
+                <div class="payment-content-right-button">
+                    <input type="text" placeholder="Ma cong tac vien">
+                    <button>
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                </div>
+                <div class="payment-content-right-mnv">
+                    <select name="" id="">
+                        <option value="">Chọn mã nhân viên thân thiết</option>
+                        <option value="">0345</option>
+                        <option value="">0346</option>
+                        <option value="">0347</option>
+                        <option value="">0348</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="payment-content-payment-btn">
+            <button>
+                TIẾP TỤC THANH TOÁN
+            </button>
+        </div>
+    </div>
+   </section>
+<!-- ---------------------- -->
+    <section class="app-container">
+        <p>
+            Tải ứng dụng IVY moda
+        </p>
+        <div class="app-google">
+            <img src="./image/googleplay.png" alt="google">
+            <img src="./image/appstore.png" alt="appstore">
+        </div>
+        <p>Nhận bản tin IVY moda</p>
+        <input type="" placeholder="Nhập email của bạn...">
+    </section>
+    <footer>
+        <div class="footer-top">
+            <li><a href=""><img src="./image/img-congthuong.png" alt="bo cong thuong"></a></li>
+            <li><a href="">Liên hệ</a></li>
+            <li><a href="">Tuyển dụng</a></li>
+            <li><a href="">Giới thiệu</a></li>
+            <li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </li>
+        </div>
+        <p>
+            Công ty cổ phần Dự Kim với số đăng ký kinh doanh : 0105777650 <br>
+            Địa chỉ đăng ký : Tổ dân phố Tháp, P.Đại Trì, Q.Nam Từ Liêm, TP.Hà Nội, Việt Nam - 0243 205 2777 <br>
+            Đặt hàng online : <span>0765 807 1014</span>
+        </p>
+        <div class="footer-bottom">
+            @Copyright All rights reserved
+        </div>
+    </footer>
+</body>
+
+
+
+
+<script>
+
+    const headers = document.querySelector('header');
+    window.addEventListener("scroll", function(){
+        x = window.pageYOffset;
+        if (x>0){
+            headers.classList.add("sticky");
+        }
+        else {
+            headers.classList.remove("sticky");
+        }
+    })
+
+    const imgPositions = document.querySelectorAll('.aspect-ratio-169 img')
+    const dots = document.querySelectorAll('.dot');
+    imgPositions.forEach(function(img,index) {
+        img.style.left = index * 100 + "%"
+        dots[index].addEventListener('click',function() {
+            Sliders(index);
+        })
+    })
+    const imgContainer = document.querySelector(".aspect-ratio-169");
+    let index = 0;
+    function imgSlides (){
+        index ++;
+        if (index === imgPositions.length-1)
+        index = 0;
+            Sliders(index);
+    }
+    function Sliders (index){
+        imgContainer.style.left = "-" +index*100+ "%";
+        const dotsActive = document.querySelector(".active");
+        dotsActive.classList.remove("active");
+        dost[index].classList.add("active");
+
+    }
+    setInterval(imgSlides,5000);
+
+</script>
+</html>
