@@ -11,7 +11,7 @@
  - Trang vận chuyển : cung cấp thông tin về sản phẩm và tổng tiền cần thanh toán cho các sản phẩm
  - Trang thanh toán : cung cấp đầy đủ thông tin về việc thanh toán : sử dụng hình thức thanh toán , mã giảm giá ,...
 - Điểm mạnh của sản phẩm : sử dụng Javascrip tạo chuyển động mượt mà cho trang web, dễ nhìn, dễ hiểu, dễ sử dụng
-- Cách deploy : Em sử dụng luôn chính github để deploy web của mình . Cách deploy :
+- Cách deploy : Em sử dụng luôn chính github để deploy web của mình . Cách deploy : https://drive.google.com/file/d/1RVIZLIq2Kot-uJi6RvOes2Fb-QsOki6R/view?usp=sharing
 - Đây là sản phẩm web làm frontend sử dụng html, css, js và responsive. Tất cả công nghệ em sử dụng đều được học thông qua youtube, w3schools, viblo , em thực hiện sản phẩm sau giờ lên lớp ở trường
 - Khuyết điểm : Trang web còn đơn giản, chưa responsive trên các thiết bị như mobile, ipad.
 - Mong muốn của bản thân : Em muốn trau dồi hơn nữa kỹ năng code frontend để hoàn thiên hơn trang web, ngoài ra em cũng muốn học thêm backend để làm hoàn chỉnh web này
@@ -28,7 +28,7 @@ Product function:
   - Shipping page: provide information about the product and the total amount to pay for the products
   - Payment page: provide full information about payment: use form of payment, discount code, ...
 - Strengths of the product: using JavaScript to create smooth motion for the website, easy to see, easy to understand, easy to use
-- How to deploy: I always use github to deploy my web. How to deploy :
+- How to deploy: I always use github to deploy my web. How to deploy : https://drive.google.com/file/d/1RVIZLIq2Kot-uJi6RvOes2Fb-QsOki6R/view?usp=sharing
 - This is a web product as frontend using html, css, js and responsive. All the technology I use is learned through youtube, w3schools, viblo, I make the product after class at school.
 - Cons: The website is simple, not responsive on devices such as mobile, ipad.
 - My wish: I want to improve my frontend coding skills to make the website more perfect, in addition, I also want to learn more backend to complete this website.
